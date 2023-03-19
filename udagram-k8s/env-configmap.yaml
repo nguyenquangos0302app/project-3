@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: ConfigMap
+data:
+  AWS_BUCKET: project-3-335463289226-bucket
+  AWS_PROFILE: default
+  AWS_REGION: us-east-2
+  JWT_SECRET: hello
+  POSTGRESS_DB: catsat
+  POSTGRESS_HOST: 'catsat.clt2ta3mfuql.us-east-2.rds.amazonaws.com'
+  URL: http://localhost:8100
+  POSTGRESS_USERNAME: catsat
+  POSTGRESS_PASSWORD: '12345678'
+metadata:
+  name: env-config
