@@ -18,4 +18,4 @@ spec:
         - name: udagram-frontend
           image: nguyenquangos0302app/udagram-frontend
           ports:
-            - containerPort: 8100
+            - containerPort: 80
