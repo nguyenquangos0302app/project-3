@@ -5,10 +5,10 @@ data:
   AWS_PROFILE: default
   AWS_REGION: us-east-2
   JWT_SECRET: hello
-  POSTGRESS_DB: catsat
-  POSTGRESS_HOST: 'catsat.clt2ta3mfuql.us-east-2.rds.amazonaws.com'
+  POSTGRES_DB: catsat
+  POSTGRES_HOST: 'catsat.clt2ta3mfuql.us-east-2.rds.amazonaws.com'
   URL: http://localhost:8100
-  POSTGRESS_USERNAME: catsat
-  POSTGRESS_PASSWORD: '12345678'
+  POSTGRES_USERNAME: catsat
+  POSTGRES_PASSWORD: '12345678'
 metadata:
   name: env-config
