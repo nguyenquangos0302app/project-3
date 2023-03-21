@@ -19,6 +19,13 @@ spec:
           image: nguyenquangos0302app/udagram-api-user
           ports:
             - containerPort: 8080
+          resources:
+            requests:
+              memory: '64Mi'
+              cpu: '250m'
+            limits:
+              memory: '1024Mi'
+              cpu: '500m'
           env:
             - name: URL
               valueFrom:
